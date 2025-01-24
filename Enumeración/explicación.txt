@@ -1,0 +1,23 @@
+Explicación del script:
+1) Solicita la IP con la máscara de red en el formato xxxx.xxxx.xxxx.xxxx/xx y valida la entrada.
+2) Crea un directorio de salida para almacenar los archivos de resultados con una marca de tiempo.
+3) Ejecuta múltiples escaneos Nmap, como:
+4) Detección de hosts activos (-sn)
+5) Escaneo rápido de puertos comunes (-F)
+6) Escaneo completo de puertos (-p-)
+7) Detección del sistema operativo (-O)
+8) Detección de versiones de servicios (-sV)
+9) Escaneo de vulnerabilidades (--script=vuln)
+10) Escaneo agresivo (-A)
+11) Escaneo UDP (-sU)
+
+Nota: 
+1) Permisos :  $ chmod +x enumeración_nmap.sh
+2) Ejecución : $ ./enumeración_nmap.sh
+
+Ventajas de este script:
+1)Automatización de múltiples escaneos de Nmap.
+2)Generación de reportes en HTML para un análisis más cómodo.
+3)Organización de resultados por escaneo en archivos individuales.
+4)Fácil reutilización para distintos rangos de red.
+
