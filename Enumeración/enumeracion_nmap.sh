@@ -1,5 +1,5 @@
 #!/bin/bash
-# Author: IBN (fb.com/DeDSec1)
+# Author: IBN 
 # Este script realiza una enumeración básica de una red utilizando Nmap
 # Se realizan los siguientes escaneos:
 # 1. Escaneo de hosts activos
